@@ -102,5 +102,5 @@ POST /api/verify        → { nick, days, requestedAt }  →  { ok, transferKey 
 
 ## 👤 Author
 
-**Carlos Alberto C. de Azevedo Filho** — Backend / Python Developer
+**Carlos Alberto C. de Azevedo Filho** — Software Developer
 🌐 [patoxzor.github.io](https://patoxzor.github.io) · 💼 [LinkedIn](https://www.linkedin.com/in/azevedoocarlos/) · 🐙 [GitHub](https://github.com/Patoxzor)
