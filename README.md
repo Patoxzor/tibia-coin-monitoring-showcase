@@ -42,7 +42,7 @@ reused to unlock different services). This API removes the manual step:
 
 ```mermaid
 flowchart LR
-    CLIENT["🖥️ Client app"] -- "POST /api/verify\n(nick, days, requestedAt)" --> API
+    CLIENT["🖥️ Client app"] -- "POST /api/verify<br/>(nick, days, requestedAt)" --> API
     subgraph SERVER["☁️ Node.js service"]
         API["Express + API-key middleware"]
         SCRAPE["🤖 Puppeteer (real-browser + proxy-chain)"]
